@@ -29,11 +29,11 @@ builder.Services.AddTransient<IPlayerRepository, PlayerRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 // Middleware pour gérer les exceptions
 app.UseMiddleware<ExceptionMiddleware>();
 
