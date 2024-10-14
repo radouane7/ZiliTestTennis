@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis.Domain", "Tennis.Domain\Tennis.Domain.csproj", "{D9F3DF21-0A59-4EE9-A7DC-12C7F2EC3762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis.Application", "Tennis.Application\Tennis.Application.csproj", "{90990B61-433A-4A62-AAF9-78A1CFF06929}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis.API", "Tennis.API\Tennis.API.csproj", "{270DD132-4AC1-4823-AB75-7BC43A0498AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis.Infrastructure", "Tennis.Infrastructure\Tennis.Infrastructure.csproj", "{B952D2F3-8C13-409B-823A-CE35130C3520}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tennis.Tests", "Tennis.Tests\Tennis.Tests.csproj", "{62A2D6DB-B5AB-4C33-8B8F-6FC72899243B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5C2B22B-824D-4F1B-A511-6A4890E66091}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F3DF21-0A59-4EE9-A7DC-12C7F2EC3762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F3DF21-0A59-4EE9-A7DC-12C7F2EC3762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F3DF21-0A59-4EE9-A7DC-12C7F2EC3762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F3DF21-0A59-4EE9-A7DC-12C7F2EC3762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90990B61-433A-4A62-AAF9-78A1CFF06929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90990B61-433A-4A62-AAF9-78A1CFF06929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90990B61-433A-4A62-AAF9-78A1CFF06929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90990B61-433A-4A62-AAF9-78A1CFF06929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270DD132-4AC1-4823-AB75-7BC43A0498AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270DD132-4AC1-4823-AB75-7BC43A0498AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270DD132-4AC1-4823-AB75-7BC43A0498AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270DD132-4AC1-4823-AB75-7BC43A0498AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B952D2F3-8C13-409B-823A-CE35130C3520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B952D2F3-8C13-409B-823A-CE35130C3520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B952D2F3-8C13-409B-823A-CE35130C3520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B952D2F3-8C13-409B-823A-CE35130C3520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A2D6DB-B5AB-4C33-8B8F-6FC72899243B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A2D6DB-B5AB-4C33-8B8F-6FC72899243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A2D6DB-B5AB-4C33-8B8F-6FC72899243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A2D6DB-B5AB-4C33-8B8F-6FC72899243B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8628C54-EFC3-42E7-9D38-763E78C089E4}
+	EndGlobalSection
+EndGlobal
