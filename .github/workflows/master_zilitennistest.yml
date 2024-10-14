@@ -53,4 +53,4 @@ jobs:
           app-name: 'ZILITennisTest'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7065AB416F742059DF958BE676159D1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_09C6C6C739E94A688E3ACCA1CC9D7C14 }}
