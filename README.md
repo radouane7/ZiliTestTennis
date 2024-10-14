@@ -2,7 +2,6 @@
 
 ## Description
 
-Cette API permet de gérer des données sur les joueurs de tennis, en fournissant des fonctionnalités pour récupérer des informations sur les joueurs, trier les joueurs par rang et obtenir des statistiques.
 Ce projet est une API Web Tennis construite en utilisant les principes de l'architecture Clean Arch et le Domain-Driven Design (DDD).
 Il exploite MediatR pour gérer les requêtes et commandes, 
 AutoMapper pour les mappages entre les entités et les DTOs 
