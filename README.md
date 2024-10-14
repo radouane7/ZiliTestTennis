@@ -3,23 +3,22 @@
 ## Description
 
 Ce projet est une API Web Tennis construite en utilisant les principes de l'architecture Clean Arch et le Domain-Driven Design (DDD).
-Il exploite MediatR pour gérer les requêtes et commandes, 
-AutoMapper pour les mappages entre les entités et les DTOs 
+Il exploite MediatR pour gÃ©rer les requÃªtes et commandes, 
+AutoMapper pour les mappages entre les entitÃ©s et les DTOs 
 
-## Fonctionnalités
+## FonctionnalitÃ©s
 
-- Récupérer tous les joueurs triés par rang.
-- Récupérer les informations d'un joueur par son identifiant.
+- RÃ©cupÃ©rer tous les joueurs triÃ©s par rang.
+- RÃ©cupÃ©rer les informations d'un joueur par son identifiant.
 - Obtenir des statistiques sur les joueurs, y compris :
-  - Le pays avec le plus grand ratio de parties gagnées.
+  - Le pays avec le plus grand ratio de parties gagnÃ©es.
   - L'IMC moyen de tous les joueurs.
-  - La médiane de la taille des joueurs.
+  - La mÃ©diane de la taille des joueurs.
 
-## Technologies Utilisées
+## Technologies UtilisÃ©es
 
 - **.NET 8** : Framework pour construire l'API.
-- **MediatR** : Pour la gestion des requêtes.
+- **MediatR** : Pour la gestion des requÃªtes.
 - **AutoMapper** : Pour le mapping des objets.
 - **XUnit** : Pour les tests unitaires.
-
  
