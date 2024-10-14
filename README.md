@@ -21,4 +21,5 @@ AutoMapper pour les mappages entre les entités et les DTOs
 - **MediatR** : Pour la gestion des requêtes.
 - **AutoMapper** : Pour le mapping des objets.
 - **XUnit** : Pour les tests unitaires.
- 
+
+  By ZILI Radouane
