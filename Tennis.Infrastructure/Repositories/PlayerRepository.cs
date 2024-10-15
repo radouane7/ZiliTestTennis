@@ -49,7 +49,7 @@ namespace Tennis.Infrastructure.Repositories
 
         public List<TennisPlayer> GetPlayers()
         {
-            return _players.OrderBy(p => p.Data.Rank).ToList();
+            return _players;
         }
 
 
