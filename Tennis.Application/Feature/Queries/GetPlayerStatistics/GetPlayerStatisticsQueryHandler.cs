@@ -52,11 +52,23 @@ namespace Tennis.Application.Feature.Queries.GetPlayerStatistics
             var averageBMI = players
                 .Average(p => p.Data.Weight / Math.Pow(p.Data.Height / 100.0, 2)); // Poids en kg / taille en m² (conversion de la taille en mètres)
 
+            
             // Calculer la médiane de la taille des joueurs
             var heights = players.Select(p => p.Data.Height).OrderBy(h => h).ToList(); // Trier les hauteurs des joueurs
-            var medianHeight = heights.Count % 2 == 0
-                ? (heights[heights.Count / 2 - 1] + heights[heights.Count / 2]) / 2.0 // Si nombre pair, moyenne des deux hauteurs centrales
-                : heights[heights.Count / 2]; // Si nombre impair, hauteur centrale
+
+            int N = heights.Count;
+            double medianHeight;
+
+            if (N % 2 != 0)
+            {
+                // Si l'effectif est impair, la médiane est la valeur à la position (N + 1) / 2
+                medianHeight = heights[(N + 1) / 2 - 1]; // La position doit être ajustée pour correspondre à l'index 0-based
+            }
+            else
+            {
+                // Si l'effectif est pair, la médiane est la moyenne des valeurs aux positions N / 2 et (N / 2) + 1
+                medianHeight = (heights[N / 2 - 1] + heights[N / 2]) / 2.0;
+            }
 
             // Retourner les statistiques calculées sous forme de DTO
             return Task.FromResult(new PlayerStatisticsDto
