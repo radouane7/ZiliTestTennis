@@ -22,4 +22,5 @@ AutoMapper pour les mappages entre les entités et les DTOs
 - **AutoMapper** : Pour le mapping des objets.
 - **XUnit** : Pour les tests unitaires.
 
-  By ZILI Radouane
+## Tests
+- Pour tester l'api merci d'aller à https://ziliateliertest-bycffxgphqachpfr.canadacentral-01.azurewebsites.net/swagger/index.html
